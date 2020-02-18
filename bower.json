@@ -1,9 +1,9 @@
 {
   "name": "angular-timezone-selector",
   "version": "1.6.1",
-  "homepage": "https://github.com/mishguruorg/angular-timezone-selector",
+  "homepage": "https://github.com/Kevcoq/angular-timezone-selector",
   "authors": [
-    "Ashok Fernandez <ashok@mish.guru>"
+    "Kevin Coquart <kevin.coquart.pro@gmail.com>"
   ],
   "description": "Timezone selector for Angular JS",
   "main": [

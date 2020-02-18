@@ -5,8 +5,8 @@
  *
  * A simple directive that allows a user to pick their timezone
  *
- * Author:  Ashok Fernandez <ashok@mish.guru>
- * Date:    12/06/2015
+ * Author:  Kevin Coquart <kevin.coquart.pro@gmail.com>
+ * Date:    23/12/2019
  * License: MIT
  */
 
