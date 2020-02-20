@@ -8,7 +8,7 @@ module.exports = function (grunt) {
     'string-replace': {
       inline: {
         files: {
-          'build/': '<%= pkg.name %>.js'
+          'build/': 'angular-timezone-selector.js'
         }
       },
       options: {
@@ -27,7 +27,7 @@ module.exports = function (grunt) {
     uglify: {
       dist: {
         files: {
-          'dist/<%= pkg.name %>.min.js': 'build/<%= pkg.name %>.js'
+          'dist/angular-timezone-selector.min.js': 'build/angular-timezone-selector.js'
         }
       }
     },
@@ -63,8 +63,8 @@ module.exports = function (grunt) {
 
     copy: {
       dist: {
-        src: 'build/<%= pkg.name %>.js',
-        dest: 'dist/<%= pkg.name %>.js'
+        src: 'build/angular-timezone-selector.js',
+        dest: 'dist/angular-timezone-selector.js'
       },
       stylingCss: {
         expand: true,
