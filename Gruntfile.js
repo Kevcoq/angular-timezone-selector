@@ -14,12 +14,12 @@ module.exports = function (grunt) {
       options: {
         replacements: [
           {
-            pattern: 'var zones = []',
-            replacement: 'var zones = ' + JSON.stringify(loader('./data/zone.csv'))
+            pattern: 'const zones = []',
+            replacement: 'const zones = ' + JSON.stringify(loader('./data/zone.csv'))
           },
           {
-            pattern: 'var codes = []',
-            replacement: 'var codes = ' + JSON.stringify(loader('./data/cca2_to_country_name.csv'))
+            pattern: 'const codes = []',
+            replacement: 'const codes = ' + JSON.stringify(loader('./data/cca2_to_country_name.csv'))
           }
         ]
       }
@@ -81,7 +81,7 @@ module.exports = function (grunt) {
     }
   })
 
-  grunt.loadNpmTasks('grunt-contrib-uglify')
+  grunt.loadNpmTasks('grunt-contrib-uglify-es')
   grunt.loadNpmTasks('grunt-contrib-copy')
   grunt.loadNpmTasks('grunt-string-replace')
   grunt.loadNpmTasks('grunt-contrib-cssmin')
